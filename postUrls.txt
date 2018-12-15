@@ -1,0 +1,9 @@
+#创建订单
+[[[http://uat.duolainc.com/api3/order/create]]][[[("address_id","1648729")("coupon_type","coupon")("id","39287170")]]]
+#加购物车
+[[[http://uat.duolainc.com/api2/cart/add]]][[[("item_id","2309130")("num","1")("sku_id","19285365")]]]
+#删购物车
+[[[[http://uat.duolainc.com/api2/cart/del/]]]
+#搜索
+[[[http://uat.duolainc.com/api/search]]][[[("page","1")("sort","score_20")("title","flower")]]]
+[[[http://uat.duolainc.com/api/searchSuggest]]][[[("kw","flower")]]]
