@@ -41,8 +41,9 @@ func requestWithCookie(api string, method string, data io.Reader) string {
 		req.Header.Add("Content-Type", "application/x-www-form-urlencoded")
 	}
 
+	// timeout 10s
 	client := http.Client{
-		Timeout: time.Second * 4}
+		Timeout: time.Second * 10}
 
 	resp, err := client.Do(req)
 
